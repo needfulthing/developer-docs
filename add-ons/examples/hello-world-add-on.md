@@ -74,7 +74,7 @@ What you need to know about the `applications` portion of the manifest.json:
 * `default_title` is optional, and will be shown in a tooltip.
 * `default_popup` is used if you want a popup to be shown when the user clicks the button. We do, so we've included this key and made it point to an HTML file included with the extension.
 
-`icons` tells Thunderbird where the icons we are using for our add-on are. You can grab the icons we use for this example from the [Thunderstorm repo](https://github.com/cleidigh/ThunderStorm/tree/master/examples/HelloWorlds/HelloWorld-MailExt-Popup/images). Make sure to create an `images` directory in the `hello-world` project folder for them.
+`icons` tells Thunderbird where the icons we are using for our add-on are. You can grab the icons we use for this example from the [Thunderstorm repo](https://github.com/cleidigh/ThunderStorm/tree/master/examples/MailExtensions/HelloWorld-Popup/images). Make sure to create an `images` directory in the `hello-world` project folder for them.
 
 {% hint style="info" %}
 Alternatively, you could supply an SVG file here, and it will be scaled correctly.
